@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import sarah from "./SarahPNG.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,10 +26,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cohere from "./company/cohere.png";
+import mlh from "./company/mlh.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./20past4.jpg";
+import jobit from "./moodaf.jpg";
+import tripguide from "./lic.jpg";
+import baadday from "./baadday.jpg";
 
 export {
   logo,
@@ -56,7 +60,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  cohere,
+  mlh,
   carrent,
   jobit,
   tripguide,
+  sarah, baadday
 };

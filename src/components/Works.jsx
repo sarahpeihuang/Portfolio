@@ -34,7 +34,7 @@ const ProjectCard =({index, name, description, tags, image,source_code_link}) =>
         </div>
         <div className='mt-5'>
           <h3 className='text-secondary font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-white text-[14px]'>{description}</p>
+          <p className='mt-2 text-black text-[14px]'>{description}</p>
         </div>
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
@@ -63,14 +63,13 @@ const Works = () => {
         </h2>
       </motion.div>
 
-      <div className='w-full flex'>
+      <div className='flex'>
         <motion.p
         variants={fadeIn("","",0.1,1)}
-        className='mt-3 text-black text-[17px] max-w-3xl leading-[30px]'>
-          these are my projects........................
+        className='mt-3 text-black text-[17px] max-w-3xl leading-[20px]'>
         </motion.p>
       </div>
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-5'>
         {projects.map((project, index)=> (
           <ProjectCard
           key={`project-$(index)`}

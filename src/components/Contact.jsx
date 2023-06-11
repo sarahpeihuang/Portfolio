@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import {AiFillLinkedin,AiFillGithub,AiFillMail} from 'react-icons/ai';
 
 
 const Contact = () => {
@@ -76,15 +77,17 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-       
+          <div className="text-[20px] p-2">
+  
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
-           
+            {/* <ButtonMailto label="Write me an E-Mail" mailto="mai/lto:no-reply@example.com" /> */}
+
+            <div onClick={(e) => {window.location.href ='mailto:shuan392@uwo.ca';}}className="flex max-w-7xl"><AiFillMail className="text-[35px] "/>&nbsp;&nbsp;shuan392@uwo.ca</div>
+            <a href="https://www.linkedin.com/in/sarahpeihuang/" className="flex max-w-7xl"><AiFillLinkedin className="text-[35px]"/>&nbsp;&nbsp;@sarahpeihuang </a>
+            <a href="https://github.com/sarah888" className="flex max-w-7xl"><AiFillGithub className="text-[35px]"/>&nbsp;&nbsp;@sarah888 </a>
+
           </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>shuan392@uwo.ca</span>
-            
-          </label>
+          </div>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'></span>
           </label>

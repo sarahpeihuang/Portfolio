@@ -61,7 +61,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-black text-center`}>
+        <p className={`${styles.sectionSubText} text-black text-center mt-20`}>
           What I have done so far
         </p>
         <h2 className={`${styles.heroHeadText} text-black text-center `}>
@@ -69,7 +69,7 @@ const Experience = () => {
         </h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col bg-gradient-to-b from-white to-yellow-200 '>
+      <div className='mt-10 flex flex-col bg-gradient-to-b from-white to-yellow-200 '>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard

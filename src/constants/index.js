@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    cohere,
+    mlh, baadday
   } from "../assets";
   
   export const navLinks = [
@@ -54,7 +56,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Varsity Athlete",
       icon: creator,
     },
   ];
@@ -116,11 +118,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "MLH Fellow - Software Engineering",
+      company_name: "MLH",
+      icon: mlh,
+      iconBg: "#E6DEDD", // #383E56 dark
+      date: "June 2023 - September 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +131,11 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Code Prompt Engineer",
+      company_name: "Cohere",
+      icon: cohere,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2023 - August 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,24 +144,11 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Data Quality Specialist",
+      company_name: "Cohere",
+      icon: cohere,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,67 +187,88 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "MoodAF",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mood Analytics & Feedback (MoodAF) is a journaling application that provides a safe space for individuals to share their thoughts with professionals and the community.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "djangoDB",
+          color: "white-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "cohereAPI",
+          color: "white-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "python",
+          color: "white-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sarah888/MoodAF",
     },
     {
-      name: "Trip Guide",
+      name: "20 Past 4",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "20 Past 4 is an interactive game that empowers youth with the knowledge they need to make informed choices surrounding substance use in daily situations.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "cohereAPI",
+          color: "white-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "python",
+          color: "white-text-gradient",
+        },
+        {
+          name: "pygame",
+          color: "white-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/sarah888/20-Past-4",
+    },
+    {
+      name: "20 Past 4",
+      description:
+        "Baad Day is an interactive game that brings awareness to overlooked youth struggles, such as oversleeping, unhealthy diet, negative affirmations, and substance abuse. ",
+      tags: [
+        {
+          name: "javascript",
+          color: "white-text-gradient",
+        },
+        {
+          name: "html",
+          color: "white-text-gradient",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "white-text-gradient",
+        },
+      ],
+      image: baadday,
+      source_code_link: "https://github.com/sarah888/Baad-Day",
+    },
+    {
+      name: "Learning in Colour",
+      description:
+        "Learning in Colour is a prototyped web application for racialized students aged 16-25 to interact with racialized professionals through forums and blogs on Figma.",
+      tags: [
+        {
+          name: "figma",
+          color: "white-text-gradient",
+        },
+        {
+          name: "designthinking",
+          color: "white-text-gradient",
+        },
+        {
+          name: "powerpoint",
+          color: "white-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.linkedin.com/in/sarahpeihuang/overlay/1635514696527/single-media-viewer/?profileId=ACoAADEyqPUBkoQgMFEcP1s3Aa4ZyqkPG3lG4Js",
     },
   ];
   
