@@ -66,7 +66,7 @@ const About = () => {
 
 🎓 I'm a Software Engineering + Business student and Varsity Athlete at Western University <br /><br />
 
-💻 Currently, I'm a Code Prompt Engineer at Cohere, where I am constantly working to train our LLMs. I'm actively seeking opportunities in PM, SWE, and consulting for Summer 2024! <br /><br />
+💻 Currently, I'm a Code Prompt Engineer at Cohere, where I am constantly improving our LLMs. I'm actively seeking opportunities in PM, SWE, and consulting for Summer 2024! <br /><br />
 
 🌞 In my free time, you can find me playing ultimate frisbee🥏, embroidering🧵, crocheting🧶, or going for a jog🏃‍♀️ <br /><br />
 

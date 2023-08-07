@@ -52,7 +52,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Student",
+      title: "Linamar Scholar",
       icon: backend,
     },
     {
