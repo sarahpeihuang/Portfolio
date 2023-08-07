@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import {resume} from "../assets";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -87,6 +87,17 @@ const Contact = () => {
             <a href="https://github.com/sarahpeihuang" className="flex max-w-7xl"><AiFillGithub className="text-[35px]"/>&nbsp;&nbsp;@sarahpeihuang </a>
 
           </label>
+          <div>
+            <br />
+          <button className="bg-white hover:bg-secondary text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+        <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
+        </svg>
+        <a href={resume} target="_blank" rel="noopener noreferrer">
+          <span>Download my Resume</span>
+        </a>
+      </button>
+          </div>
           </div>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'></span>

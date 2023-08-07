@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
-import {AiFillLinkedin,AiFillGithub,AiFillMail} from 'react-icons/ai';
+
 import { github } from '../assets';
 import { NavLink } from 'react-router-dom';
 
@@ -30,7 +30,6 @@ const Hero = () => {
 
 
       <ComputersCanvas/>
-      
       <div className='absolute xs:bottom-1 bottom-32 w-full flex justify-center items-center'>
         
         <a href='#about'>
@@ -42,7 +41,7 @@ const Hero = () => {
                 y: [0, 24, 0],
               }}
               transition={{
-                duration: 1.5,
+                duration: 1,
                 repeat: Infinity,
                 repeatType: "loop",
               }}

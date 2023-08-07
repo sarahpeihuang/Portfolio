@@ -62,11 +62,11 @@ const About = () => {
     <motion.p
     variants={fadeIn("","",0.1,1)}
     className='text-black mt-4 mr-4 text-[17px] max-w-3xl leading-[30px]'>
-      👋 Welcome to my Portfolio. I'm Sarah Huang, a Software Engineer from Toronto 🇨🇦 <br /><br />
+👋 Welcome to my LinkedIn. I'm Sarah Huang, an aspiring Product Manager from Toronto 🇨🇦 <br /><br />
 
-🎓 I'm a Software Engineering student and Varsity Athlete at Western University. Looking to pursue a double degree in Business at the Ivey Business School <br /><br />
+🎓 I'm a Software Engineering + Business student and Varsity Athlete at Western University <br /><br />
 
-💻 Currently, I'm employed as a Data Quality Specialist at Cohere, where I am constantly working with the next NLP AIs. I'm actively seeking opportunities in SWE, PM, consulting, and machine learning roles for summer 2024! <br /><br />
+💻 Currently, I'm a Code Prompt Engineer at Cohere, where I am constantly working to train our LLMs. I'm actively seeking opportunities in PM, SWE, and consulting for Summer 2024! <br /><br />
 
 🌞 In my free time, you can find me playing ultimate frisbee🥏, embroidering🧵, crocheting🧶, or going for a jog🏃‍♀️ <br /><br />
 

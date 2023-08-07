@@ -24,7 +24,7 @@ import {
     tripguide,
     threejs,
     cohere,
-    mlh, baadday, corgi
+    mlh, baadday
   } from "../assets";
   
   export const navLinks = [
@@ -44,15 +44,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Product Manager",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Software Engineer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Student",
       icon: backend,
     },
     {
@@ -82,10 +82,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -118,15 +118,16 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer",
-      company_name: "MLH",
+      title: "Production Engineer",
+      company_name: "Meta - MLH Fellowship ",
       icon: mlh,
       iconBg: "#E6DEDD", // #383E56 dark
       date: "June 2023 - September 2023",
       points: [
-        "Contributed to open-source projects of various companies using Python, Javascript, HTML/CSS and Typescript",
-        "Collaborated in a pod of 10 SWE fellows to share and develop insight on project blockers and map out project MVPs and task priorities to be delegated amongst the team",
-
+        "Developed and deployed an open-source portfolio website with Python, Flask, Jinja, MySQL, Nginx, Docker and unittest to ensure easy and flexible redeployment of code for future collaborators",
+        "Automated testing and deployment workflows using CI/CD, resulting in an improved troubleshooting process",
+        "Set up system and container monitoring, alerting, and visualization using Prometheus and Grafana to optimize computer processing and memory usage for repository collaborators",
+        "Completed 12 weeks of curriculum-based learning on core Production Engineering topics alongside Meta Engineers"
       ],
     },
     {
@@ -136,10 +137,10 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2023 - August 2023",
       points: [
-        "Scraped, reformatted, and trained Cohere’s RAG model with over 600,000 emails with Python and Regex",
-        "Lead the planning and execution of the code review pipeline to improve the chat model’s code output quality",
-        "Developed the front end and implemented backed data fetching using React.js and Typescript in a full-stack web application designed for accepting and rejecting annotations; completed in one week and pitched to the CTO of Cohere",
-        "Collaborated in a team to ideate topics and write a Code Annotation Style Guide to ensure that all Data Quality Specialists company-wide annotate code consistently and up to standard",
+        "Managed over 27 engineers to establish a Code Review Pipeline and iteratively improved the pipeline’s efficiency by corresponding with external vendors like Scale AI to mitigate blockers, resulting in a 319% output increase in one week",
+        "Saw the Code Review Pipeline to completion by developing a linting and parsing script with Python to fold over 1500 hours worth of code-related conversations into model training",
+        "Scraped and parsed over 600,000 emails using Python to train Cohere’s Retrieval Augmented Generation model for corporate usage at McKinsey & Company",
+        "Developed the front end and implemented back end data fetching using React.js and Typescript in an internal full-stack application designed for employees to scan data quality on the go; completed in one week and pitched to Cohere’s CTO",
       ],
     },
     {
@@ -184,27 +185,27 @@ import {
   ];
   
   const projects = [
-    {
-      name: "co:RGI",
-      description:
-      "Cohere Review Generation Interface (co:RGI) is an annotation reviewing application inspired by Tinder. Made for Cohere employees to review data on the go.",
-      tags: [
-        {
-          name: "typescript",
-          color: "white-text-gradient",
-        },
-        {
-          name: "react.js",
-          color: "white-text-gradient",
-        },
-        {
-          name: "python",
-          color: "white-text-gradient",
-        },
-      ],
-      image: corgi,
-      source_code_link: "https://main--silly-brigadeiros-2cb3c2.netlify.app/",
-    },
+    // {
+    //   name: "co:RGI",
+    //   description:
+    //   "Cohere Review Generation Interface (co:RGI) is an annotation reviewing application inspired by Tinder. Made for Cohere employees to review data on the go.",
+    //   tags: [
+    //     {
+    //       name: "typescript",
+    //       color: "white-text-gradient",
+    //     },
+    //     {
+    //       name: "react.js",
+    //       color: "white-text-gradient",
+    //     },
+    //     {
+    //       name: "python",
+    //       color: "white-text-gradient",
+    //     },
+    //   ],
+    //   // image: corgi,
+    //   // source_code_link: "https://main--silly-brigadeiros-2cb3c2.netlify.app/",
+    // },
     {
       name: "MoodAF",
       description:

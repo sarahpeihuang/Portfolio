@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import sarah from "./SarahPNG.png";
+import sarah from "./Sarah.png";
 import resume from "./Sarah-Huang-Resume.pdf"
 
 import css from "./tech/css.png";
@@ -34,7 +34,7 @@ import carrent from "./20past4.jpg";
 import jobit from "./moodaf.jpg";
 import tripguide from "./lic.jpg";
 import baadday from "./baadday.jpg";
-import corgi from "./corgi.jpg";
+// import corgi from "./corgi.jpg";
 
 export {
   logo,
@@ -67,5 +67,5 @@ export {
   carrent,
   jobit,
   tripguide,
-  sarah, baadday, corgi, resume
+  sarah, baadday, resume
 };
