@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import sarah from "./SarahPNG.png";
+import resume from "./Sarah-Huang-Resume.pdf"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -33,6 +34,7 @@ import carrent from "./20past4.jpg";
 import jobit from "./moodaf.jpg";
 import tripguide from "./lic.jpg";
 import baadday from "./baadday.jpg";
+import corgi from "./corgi.jpg";
 
 export {
   logo,
@@ -65,5 +67,5 @@ export {
   carrent,
   jobit,
   tripguide,
-  sarah, baadday
+  sarah, baadday, corgi, resume
 };

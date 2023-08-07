@@ -24,7 +24,7 @@ import {
     tripguide,
     threejs,
     cohere,
-    mlh, baadday
+    mlh, baadday, corgi
   } from "../assets";
   
   export const navLinks = [
@@ -118,16 +118,15 @@ import {
   
   const experiences = [
     {
-      title: "MLH Fellow - Software Engineering",
+      title: "Software Engineer",
       company_name: "MLH",
       icon: mlh,
       iconBg: "#E6DEDD", // #383E56 dark
       date: "June 2023 - September 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to open-source projects of various companies using Python, Javascript, HTML/CSS and Typescript",
+        "Collaborated in a pod of 10 SWE fellows to share and develop insight on project blockers and map out project MVPs and task priorities to be delegated amongst the team",
+
       ],
     },
     {
@@ -137,10 +136,10 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Scraped, reformatted, and trained Cohere’s RAG model with over 600,000 emails with Python and Regex",
+        "Lead the planning and execution of the code review pipeline to improve the chat model’s code output quality",
+        "Developed the front end and implemented backed data fetching using React.js and Typescript in a full-stack web application designed for accepting and rejecting annotations; completed in one week and pitched to the CTO of Cohere",
+        "Collaborated in a team to ideate topics and write a Code Annotation Style Guide to ensure that all Data Quality Specialists company-wide annotate code consistently and up to standard",
       ],
     },
     {
@@ -150,10 +149,9 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Produced high-quality machine learning data by labelling, ranking, auditing, and correcting data",
+        "Highlighted interface optimizations on behaff of the team to ensure annotation efficiency and quality",
+        "Annotated data for various Cohere LLMs to ensure model growth and imporvements according to the company style guide",
       ],
     },
   ];
@@ -186,6 +184,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "co:RGI",
+      description:
+      "Cohere Review Generation Interface (co:RGI) is an annotation reviewing application inspired by Tinder. Made for Cohere employees to review data on the go.",
+      tags: [
+        {
+          name: "typescript",
+          color: "white-text-gradient",
+        },
+        {
+          name: "react.js",
+          color: "white-text-gradient",
+        },
+        {
+          name: "python",
+          color: "white-text-gradient",
+        },
+      ],
+      image: corgi,
+      source_code_link: "https://main--silly-brigadeiros-2cb3c2.netlify.app/",
+    },
     {
       name: "MoodAF",
       description:
@@ -229,7 +248,7 @@ import {
       source_code_link: "https://github.com/sarah888/20-Past-4",
     },
     {
-      name: "20 Past 4",
+      name: "Baad Day",
       description:
         "Baad Day is an interactive game that brings awareness to overlooked youth struggles, such as oversleeping, unhealthy diet, negative affirmations, and substance abuse. ",
       tags: [
