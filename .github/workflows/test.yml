@@ -1,0 +1,30 @@
+name: Run Tests
+
+on:
+  push: 
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Run Tests
+    env: 
+      TESTING: true
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+ 
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9.13'
+      - name: Install Python dependencies # PYTHON
+        run: pip install -r requirements.txt # terminal command
+      - name: Run Python script
+        run: python .github/workflows/python_reformat.py 
+      - name: Clean up temporary files
+        run: rm -rf temp-files
