@@ -22,9 +22,11 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9.13'
-      - name: Install Python dependencies # PYTHON
-        run: pip install -r requirements.txt # terminal command
-      - name: Run Python script
-        run: python .github/workflows/python_reformat.py 
-      - name: Clean up temporary files
-        run: rm -rf temp-files
+      - name: Setup Python Virtual Environment
+        run: python -m venv python3-virtualenv
+        
+      - name: Install Dependencies
+        run: python3-virtualenv/bin/pip install -r requirements.txt
+        
+      - name: Run Tests
+        run: ./run_test.sh
