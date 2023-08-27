@@ -128,7 +128,7 @@ import {
       //   type: "Framework"
       // },
       {
-        name: "git",
+        name: "Git",
         icon: git,
         type: "Framework"
       },
