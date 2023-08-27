@@ -18,14 +18,14 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import redux from "./tech/linear.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-// import python from "./tech/python.png";
-// import go from "./tech/go.png";
-// import looker from "./tech/looker.png";
-// import java from "./tech/java.png";
+import python from "./tech/python.png";
+import go from "./tech/go.png";
+import looker from "./tech/looker.png";
+import java from "./tech/java.png";
 
 import meta from "./company/meta.png";
 import cohere from "./company/cohere.png";
@@ -59,12 +59,10 @@ export {
   typescript,
   threejs,
   meta,
-  
   cohere,
-  
   carrent,
   jobit,
   tripguide,
   sarah, baadday, resume, 
-  // go, looker, java, python
+  go, looker, java, python
 };

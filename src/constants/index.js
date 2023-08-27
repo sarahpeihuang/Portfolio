@@ -22,7 +22,7 @@ import {
     threejs,
     cohere,
     baadday, 
-    // go, looker, java, python
+    go, looker, java, python
   } from "../assets";
   
   export const navLinks = [
@@ -61,16 +61,16 @@ import {
   
   const technologies = [
 
-      // {
-      //   name: "Python",
-      //   icon: python,
-      //   type: "Language"
-      // },
-      // {
-      //   name: "Java",
-      //   icon: java,
-      //   type: "Language"
-      // },
+      {
+        name: "Python",
+        icon: python,
+        type: "Language"
+      },
+      {
+        name: "Java",
+        icon: java,
+        type: "Language"
+      },
       {
         name: "HTML 5",
         icon: html,
@@ -92,11 +92,11 @@ import {
         icon: typescript,
         type: "Language"
       },
-      // {
-      //   name: "Go",
-      //   icon: go,
-      //   type: "Language"
-      // },
+      {
+        name: "Go",
+        icon: go,
+        type: "Language"
+      },
       {
         name: "React JS",
         icon: reactjs,
@@ -107,26 +107,26 @@ import {
         icon: redux,
         type: "Design"
       },
-      {
-        name: "Tailwind CSS",
-        icon: tailwind,
-        type: "Framework"
-      },
+      // {
+      //   name: "Tailwind CSS",
+      //   icon: tailwind,
+      //   type: "Framework"
+      // },
       {
         name: "Node JS",
         icon: nodejs,
         type: "Framework"
       },
-      {
-        name: "MongoDB",
-        icon: mongodb,
-        type: "Framework"
-      },
-      {
-        name: "Three JS",
-        icon: threejs,
-        type: "Framework"
-      },
+      // {
+      //   name: "MongoDB",
+      //   icon: mongodb,
+      //   type: "Framework"
+      // },
+      // {
+      //   name: "Three JS",
+      //   icon: threejs,
+      //   type: "Framework"
+      // },
       {
         name: "git",
         icon: git,
@@ -142,11 +142,11 @@ import {
       //   icon: docker,
       //   type: "Framework"
       // },
-      // {
-      //   name: "Looker",
-      //   icon: looker,
-      //   type: "Design"
-      // },
+      {
+        name: "Looker",
+        icon: looker,
+        type: "Design"
+      },
   
     ];  
   const experiences = [
