@@ -168,7 +168,7 @@ import {
       company_name: "Meta - MLH Fellowship ",
       icon: meta,
       iconBg: "#E6DEDD", // #383E56 dark
-      date: "June 2023 - September 2023",
+      date: "June - September 2023",
       points: [
         "Developed and deployed an open-source portfolio website with Python, Flask, Jinja, MySQL, Nginx, Docker and unittest to ensure easy and flexible redeployment of code for future collaborators",
         "Automated testing and deployment workflows using CI/CD, resulting in an improved troubleshooting process",
@@ -181,7 +181,7 @@ import {
       company_name: "Cohere",
       icon: cohere,
       iconBg: "#E6DEDD",
-      date: "May 2023 - August 2023",
+      date: "May - August 2023",
       points: [
         "Managed 27 engineers to establish a Code Review Pipeline and improved it’s efficiency by developing training fold and linting scripts for 1500h worth of conversations and mitigating blockers with data vendors, yielding a 6% model improvement",
         "Scraped and parsed over 600,000 emails using Python to train Cohere’s Retrieval Augmented Generation model for application at corporate clients through Cohere’s chatbot assistant for enterprises, Coral",
