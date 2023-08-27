@@ -169,7 +169,7 @@ import {
     {
       title: "Production Engineer",
       company_name: "Meta - MLH Fellowship ",
-      icon: mlh,
+      icon: meta,
       iconBg: "#E6DEDD", // #383E56 dark
       date: "June 2023 - September 2023",
       points: [
