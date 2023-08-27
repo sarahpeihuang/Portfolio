@@ -23,8 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
-    cohere,
-    mlh, baadday
+    cohere, python,
+    mlh, baadday, go, looker, java
   } from "../assets";
   
   export const navLinks = [
@@ -63,64 +63,113 @@ import {
   
   const technologies = [
     {
+      name: "Python",
+      icon: python,
+      type: "Language"
+    },
+    {
+      name: "Java",
+      icon: java,
+      type: "Language"
+    },
+    {
       name: "HTML 5",
       icon: html,
+      type: "Language"
     },
     {
       name: "CSS 3",
       icon: css,
+      type: "Language"
     },
+    
     {
       name: "JavaScript",
       icon: javascript,
+      type: "Language"
     },
     {
       name: "TypeScript",
       icon: typescript,
+      type: "Language"
+    },
+    {
+      name: "Go",
+      icon: go,
+      type: "Language"
     },
     {
       name: "React JS",
       icon: reactjs,
+      type: "Framework"
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
+    {
+      name: "Linear",
+      icon: redux,
+      type: "Design"
+    },
     {
       name: "Tailwind CSS",
       icon: tailwind,
+      type: "Framework"
     },
     {
       name: "Node JS",
       icon: nodejs,
+      type: "Framework"
     },
     {
       name: "MongoDB",
       icon: mongodb,
+      type: "Framework"
     },
     {
       name: "Three JS",
       icon: threejs,
+      type: "Framework"
     },
     {
       name: "git",
       icon: git,
+      type: "Framework"
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
+      type: "Design"
     },
     {
       name: "docker",
       icon: docker,
+      type: "Framework"
     },
+    {
+      name: "Looker",
+      icon: looker,
+      type: "Design"
+    },
+
   ];
+  
   
   const experiences = [
     {
-      title: "Production Engineer",
+      title: "Product Manager",
+      company_name: "Cohere",
+      icon: cohere,
+      iconBg: "#E6DEDD",
+      date: "August 2023 - Present",
+      points: [
+        "Served as a liaison between over 200 Data Quality Specialists and Cohere’s engineering team to finetune the production of  a convenient internal data annotation platform for Data Quality Specialists and their managers",
+        "Spearheaded a sprint to fulfill Oracle’s P0 request by synthetically generating over 1000 prompts and relaying instructions to over 30 Copywriters, resulting in a timely completion to to satisfy all stakeholders",
+        "Collaborated in a team of 5 to author a Code Annotation Style Guide to ensure that external vendors like Scale AI and Invisible Technologies provide quality data and code annotations to improve chat model training data",
+        "Inaugurated a Vendor Evaluation Pipeline to identify low performing data vendor annotators and communicate quality discrepancies with vendors to ensure that incoming data batches are up to data quality standards",
+      ],
+    },
+    {
+      title: "Production Engineering Fellow",
       company_name: "Meta - MLH Fellowship ",
-      icon: mlh,
+      icon: meta,
       iconBg: "#E6DEDD", // #383E56 dark
       date: "June 2023 - September 2023",
       points: [
@@ -131,16 +180,16 @@ import {
       ],
     },
     {
-      title: "Code Prompt Engineer",
+      title: "NLP Engineer",
       company_name: "Cohere",
       icon: cohere,
       iconBg: "#E6DEDD",
       date: "May 2023 - August 2023",
       points: [
-        "Managed over 27 engineers to establish a Code Review Pipeline and iteratively improved the pipeline’s efficiency by corresponding with external vendors like Scale AI to mitigate blockers, resulting in a 319% output increase in one week",
-        "Saw the Code Review Pipeline to completion by developing a linting and parsing script with Python to fold over 1500 hours worth of code-related conversations into model training",
-        "Scraped and parsed over 600,000 emails using Python to train Cohere’s Retrieval Augmented Generation model for corporate usage at McKinsey & Company",
-        "Developed the front end and implemented back end data fetching using React.js and Typescript in an internal full-stack application designed for employees to scan data quality on the go; completed in one week and pitched to Cohere’s CTO",
+        "Managed 27 engineers to establish a Code Review Pipeline and improved it’s efficiency by developing training fold and linting scripts for 1500h worth of conversations and mitigating blockers with data vendors, yielding a 6% model improvement",
+        "Scraped and parsed over 600,000 emails using Python to train Cohere’s Retrieval Augmented Generation model for application at corporate clients through Cohere’s chatbot assistant for enterprises, Coral",
+        "Developed the front end and implemented back end data fetching using React.js and Typescript in an internal full-stack application designed to expidite the data quality sifting process; completed in one week and pitched to Cohere’s CTO",
+        "Learned Golang onsite to troubleshoot request errors in Cohere’s APIs; efforts resulted in relevant data extraction for the Platforms Team to further optimize popular endpoints like Co.Generate and Co.Summarize",
       ],
     },
     {
@@ -151,8 +200,8 @@ import {
       date: "May 2023",
       points: [
         "Produced high-quality machine learning data by labelling, ranking, auditing, and correcting data",
-        "Highlighted interface optimizations on behaff of the team to ensure annotation efficiency and quality",
-        "Annotated data for various Cohere LLMs to ensure model growth and imporvements according to the company style guide",
+        "Highlighted interface optimizations on behalf of the team to ensure annotation efficiency and quality",
+        "Annotated data for various Cohere LLMs to ensure model growth and improvements according to the company style guide",
       ],
     },
   ];

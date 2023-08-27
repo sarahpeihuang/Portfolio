@@ -56,17 +56,17 @@ const About = () => {
       </button>
     </div>
   </div>
-  <h2 className={`${styles.heroHeadText}`}>Overview.</h2>
+  <h2 className={`${styles.heroHeadText}`}>About Me.</h2>
 </motion.div>
     <div className='flex'>
     <motion.p
     variants={fadeIn("","",0.1,1)}
     className='text-black mt-4 mr-4 text-[17px] max-w-3xl leading-[30px]'>
-👋 Welcome to my LinkedIn. I'm Sarah Huang, an aspiring Product Manager from Toronto 🇨🇦 <br /><br />
+👋 Welcome to my Portfolio. I'm Sarah Huang, an aspiring Product Manager from Toronto 🇨🇦 <br /><br />
 
-🎓 I'm a Software Engineering + Business student and Varsity Athlete at Western University <br /><br />
+🎓 I'm a Software Engineering & Business student and Varsity Athlete at Western University <br /><br />
 
-💻 Currently, I'm a Code Prompt Engineer at Cohere, where I am constantly improving our LLMs. I'm actively seeking opportunities in PM, SWE, and consulting for Summer 2024! <br /><br />
+💻 Currently, I'm an Annotation Product Manager at Cohere, where I am work to improve the data we feed to our our LLMs. I'm actively seeking opportunities in PM, SWE, and consulting for Summer 2024! <br /><br />
 
 🌞 In my free time, you can find me playing ultimate frisbee🥏, embroidering🧵, crocheting🧶, or going for a jog🏃‍♀️ <br /><br />
 

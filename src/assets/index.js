@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import sarah from "./Sarah.png";
-import resume from "./Sarah-Huang-Resume.pdf"
+import resume from "./Sarah-Huang-Resume.pdf";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -22,12 +22,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import go from "./tech/go.png";
+import looker from "./tech/looker.png";
+import java from "./tech/java.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import cohere from "./company/cohere.png";
+
 import mlh from "./company/mlh.png";
 
 import carrent from "./20past4.jpg";
@@ -67,5 +72,11 @@ export {
   carrent,
   jobit,
   tripguide,
-  sarah, baadday, resume
+  sarah,
+  baadday,
+  resume,
+  python,
+  go,
+  looker,
+  java,
 };
