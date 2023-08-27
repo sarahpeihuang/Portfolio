@@ -22,6 +22,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+// import python from "./tech/python.png";
+// import go from "./tech/go.png";
+// import looker from "./tech/looker.png";
+// import java from "./tech/java.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -67,5 +71,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  sarah, baadday, resume
+  sarah, baadday, resume, 
+  // go, looker, java, python
 };
