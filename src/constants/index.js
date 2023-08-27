@@ -16,15 +16,12 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
     cohere,
-    mlh, baadday, 
+    baadday, 
     // go, looker, java, python
   } from "../assets";
   

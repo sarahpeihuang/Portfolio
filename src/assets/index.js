@@ -28,11 +28,7 @@ import threejs from "./tech/threejs.svg";
 // import java from "./tech/java.png";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import cohere from "./company/cohere.png";
-import mlh from "./company/mlh.png";
 
 import carrent from "./20past4.jpg";
 import jobit from "./moodaf.jpg";
@@ -63,11 +59,9 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
+  
   cohere,
-  mlh,
+  
   carrent,
   jobit,
   tripguide,
