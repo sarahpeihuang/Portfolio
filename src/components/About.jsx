@@ -66,7 +66,7 @@ const About = () => {
 
 🎓 I'm a Software Engineering & Business student and Varsity Athlete at Western University <br /><br />
 
-💻 Currently, I'm an Annotation Product Manager at Cohere, where I am work to improve the data we feed to our LLMs. I'm actively seeking opportunities in PM, SWE, and consulting for Summer 2024! <br /><br />
+💻 Currently, I'm a Project Manager for Data Annotation at Cohere, where I work to improve the data we feed to our LLMs. I'm actively seeking opportunities in PM, SWE, and consulting for Summer 2024! <br /><br />
 
 🌞 In my free time, you can find me playing ultimate frisbee🥏, embroidering🧵, crocheting🧶, or going for a jog🏃‍♀️ <br /><br />
 

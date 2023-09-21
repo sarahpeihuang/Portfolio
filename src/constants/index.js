@@ -38,6 +38,7 @@ import {
       id: "contact",
       title: "Contact",
     },
+
   ];
   
   const services = [
@@ -151,7 +152,7 @@ import {
     ];  
   const experiences = [
     {
-      title: "Product Manager",
+      title: "Project Manager",
       company_name: "Cohere",
       icon: cohere,
       iconBg: "#E6DEDD",
@@ -160,11 +161,11 @@ import {
         "Served as a liaison between over 200 Data Quality Specialists and Cohere’s engineering team to finetune the production of  a convenient internal data annotation platform for Data Quality Specialists and their managers",
         "Spearheaded a sprint to fulfill Oracle’s P0 request by synthetically generating over 1000 prompts and relaying instructions to over 30 Copywriters, resulting in a timely completion to to satisfy all stakeholders",
         "Collaborated in a team of 5 to author a Code Annotation Style Guide to ensure that external vendors like Scale AI and Invisible Technologies provide quality data and code annotations to improve chat model training data",
-        "Inaugurated a Vendor Evaluation Pipeline to identify low performing data vendor annotators and communicate quality discrepancies with vendors to ensure that incoming data batches are up to data quality standards",
+        "Inaugurated a Vendor Evaluation Pipeline to identify low-performing data vendor annotators to ensure quality incoming data batches are up to standard, resulting in a 25% improvement over two weeks",
       ],
     },
     {
-      title: "Production Engineer",
+      title: "Production Engineer Fellow",
       company_name: "Meta - MLH Fellowship ",
       icon: meta,
       iconBg: "#E6DEDD", // #383E56 dark
@@ -177,13 +178,13 @@ import {
       ],
     },
     {
-      title: "Code Prompt Engineer",
+      title: "Software Engineer Intern",
       company_name: "Cohere",
       icon: cohere,
       iconBg: "#E6DEDD",
       date: "May - August 2023",
       points: [
-        "Managed 27 engineers to establish a Code Review Pipeline and improved it’s efficiency by developing training fold and linting scripts for 1500h worth of conversations and mitigating blockers with data vendors, yielding a 6% model improvement",
+        "Managed 27 engineers to establish a Code Review Pipeline and improved its efficiency by developing scripts to fold over 1500 hours worth of training data and mitigating blockers with data vendors, yielding a 6% model improvement in code generation",
         "Scraped and parsed over 600,000 emails using Python to train Cohere’s Retrieval Augmented Generation model for application at corporate clients through Cohere’s chatbot assistant for enterprises, Coral",
         "Developed the front end and implemented back end data fetching using React.js and Typescript in an internal full-stack application designed to expidite the data quality sifting process; completed in one week and pitched to Cohere’s CTO",
         "Learned Golang onsite to troubleshoot request errors in Cohere’s APIs; efforts resulted in relevant data extraction for the Platforms Team to further optimize popular endpoints like Co.Generate and Co.Summarize" ],
@@ -193,28 +194,13 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Sarah is data-driven, ambitious, and quick-witted. She is a true leader, and exceeded all expectations during her time at Cohere, where she led the development of several key initiatives. Sarah handles all challenges with grace and positivity. I’m confident Sarah will excel and uplevel *any* team at *every* organization, and I look forward to the day we can work together again.",
+      name: "Ellie Evans",
+      designation: "First Product Manager",
+      company: "Cohere",
+      image: "https://media.licdn.com/dms/image/D5603AQF0IKJ4QV_pug/profile-displayphoto-shrink_800_800/0/1677532737024?e=1700697600&v=beta&t=7KRrrmga3pTe5MPEmlYG3qutvJcBjheSF4SoNaK89hk",
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+ 
   ];
   
   const projects = [
