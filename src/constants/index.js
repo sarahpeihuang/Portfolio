@@ -152,11 +152,23 @@ import {
     ];  
   const experiences = [
     {
-      title: "Project Manager",
+      title: "Engineering Program Manager, RAG & Safety",
       company_name: "Cohere",
       icon: cohere,
       iconBg: "#E6DEDD",
-      date: "August 2023 - Present",
+      date: "May 2024 - Aug 2024",
+      points: [
+        "Organized a week-long offsite for the Model Safety Team to strategize product vision and roadmap, collaborating with cross-functional partners to gather feedback and define action items for engineers",
+        "Analyzed market trends and user research to identify inefficiencies in API key distribution, resulting in a new distribution system that improved request fulfillment times for over 200 engineers",
+        "Led a documentation template project to address inconsistencies by conducting interviews amongst leadership and creating user-friendly templates, achieving high adoption rates across teams",
+      ],
+    },
+    {
+      title: "Project Manager, Data & Evaulation",
+      company_name: "Cohere",
+      icon: cohere,
+      iconBg: "#E6DEDD",
+      date: "August 2023 - May 2024",
       points: [
         "Served as a liaison between over 200 Data Quality Specialists and Cohere’s engineering team to finetune the production of  a convenient internal data annotation platform for Data Quality Specialists and their managers",
         "Spearheaded a sprint to fulfill Oracle’s P0 request by synthetically generating over 1000 prompts and relaying instructions to over 30 Copywriters, resulting in a timely completion to to satisfy all stakeholders",
@@ -169,7 +181,7 @@ import {
       company_name: "Meta - MLH Fellowship ",
       icon: meta,
       iconBg: "#E6DEDD", // #383E56 dark
-      date: "June - September 2023",
+      date: "June 2023- September 2023",
       points: [
         "Developed and deployed an open-source portfolio website with Python, Flask, Jinja, MySQL, Nginx, Docker and unittest to ensure easy and flexible redeployment of code for future collaborators",
         "Automated testing and deployment workflows using CI/CD, resulting in an improved troubleshooting process",
@@ -182,7 +194,7 @@ import {
       company_name: "Cohere",
       icon: cohere,
       iconBg: "#E6DEDD",
-      date: "May - August 2023",
+      date: "May 2023 - August 2023",
       points: [
         "Managed 27 engineers to establish a Code Review Pipeline and improved its efficiency by developing scripts to fold over 1500 hours worth of training data and mitigating blockers with data vendors, yielding a 6% model improvement in code generation",
         "Scraped and parsed over 600,000 emails using Python to train Cohere’s Retrieval Augmented Generation model for application at corporate clients through Cohere’s chatbot assistant for enterprises, Coral",
@@ -199,6 +211,22 @@ import {
       designation: "First Product Manager",
       company: "Cohere",
       image: "https://media.licdn.com/dms/image/D5603AQF0IKJ4QV_pug/profile-displayphoto-shrink_800_800/0/1677532737024?e=1700697600&v=beta&t=7KRrrmga3pTe5MPEmlYG3qutvJcBjheSF4SoNaK89hk",
+    },
+    {
+      testimonial:
+        "Sarah is structured, thoughtful and considerate in her approach to every project she tackles, navigating challenging technical topics with a positive mindset and a drive to find solutions. Despite the ambiguity of a program management role in a modeling organization, Sarah has excelled by asking relevant questions, proactively communicating and being extremely hands on (and always volunteering to do more)! I am very excited to see what Sarah does next - she's an asset to any organization.",
+      name: "Naomi White",
+      designation: "Senior Modelling Program Manager",
+      company: "Cohere",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQHT82jj8avzUQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1676579337698?e=1731542400&v=beta&t=VwEx4CLNesvrRwuDpJp2X9R3ieAGaelO6be0BTI8SM0",
+    },
+    {
+      testimonial:
+        "I worked with Sarah during her internship as an Engineering Program Manager at Cohere. I was constantly impressed by her dedication in every task that she undertook. She was great at finding creative solutions to the problems presented to her and I saw her apply her Machine Learning knowledge to a project she completed for the Cohere RAG and Safety Teams. She is great at communication and problem solving. She also excels at getting technical tasks and projects across the finish line, at quality. I would love to work with Sarah again in a heartbeat and wish her all the very best in her career!",
+      name: "Isha Satyakam",
+      designation: "Senior Engineering Program Manager",
+      company: "Cohere",
+      image: "https://media.licdn.com/dms/image/v2/C5603AQF_h1K2P8hbgw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1632420799412?e=1731542400&v=beta&t=BWiNTHQmxPc54dB3mqPmkXtVG4cMMJYDpHKb4X7PqYc",
     },
  
   ];
@@ -225,26 +253,48 @@ import {
     //   // image: corgi,
     //   // source_code_link: "https://main--silly-brigadeiros-2cb3c2.netlify.app/",
     // },
+
     {
-      name: "MoodAF",
+      name: "Google Sheets",
       description:
-      "Mood Analytics & Feedback (MoodAF) is a journaling application that provides a safe space for individuals to share their thoughts with professionals and the community.",
+      "A Google Sheets product review focused on how to optimize function discovery for increased user productivity.",
       tags: [
         {
-          name: "djangoDB",
+          name: "product",
           color: "white-text-gradient",
         },
         {
-          name: "cohereAPI",
+          name: "figma",
           color: "white-text-gradient",
         },
         {
-          name: "python",
+          name: "user research",
           color: "white-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/sarahpeihuang/MoodAF",
+      image: docker,
+      source_code_link: "https://drive.google.com/drive/folders/10qauJljt3fB-KtPUWVO5Bg_s2KPMpR_6?usp=sharing",
+    },
+    {
+      name: "Learning in Colour",
+      description:
+        "Learning in Colour is a web application for racialized students to connect with racialized professionals wireframed on Figma.",
+      tags: [
+        {
+          name: "product",
+          color: "white-text-gradient",
+        },
+        {
+          name: "design thinking",
+          color: "white-text-gradient",
+        },
+        {
+          name: "figma",
+          color: "white-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://www.linkedin.com/in/sarahpeihuang/overlay/1635514696527/single-media-viewer/?profileId=ACoAADEyqPUBkoQgMFEcP1s3Aa4ZyqkPG3lG4Js",
     },
     {
       name: "20 Past 4",
@@ -252,11 +302,11 @@ import {
         "20 Past 4 is an interactive game that empowers youth with the knowledge they need to make informed choices surrounding substance use in daily situations.",
       tags: [
         {
-          name: "cohereAPI",
+          name: "python",
           color: "white-text-gradient",
         },
         {
-          name: "python",
+          name: "cohereAPI",
           color: "white-text-gradient",
         },
         {
@@ -266,6 +316,27 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/sarahpeihuang/20-Past-4",
+    },
+    {
+      name: "MoodAF",
+      description:
+      "Mood Analytics & Feedback (MoodAF) is a journaling application that provides a safe space for individuals to share their thoughts with professionals and the community.",
+      tags: [
+        {
+          name: "python",
+          color: "white-text-gradient",
+        },
+        {
+          name: "cohereAPI",
+          color: "white-text-gradient",
+        },
+        {
+          name: "djangoDB",
+          color: "white-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/sarahpeihuang/MoodAF",
     },
     {
       name: "Baad Day",
@@ -288,27 +359,7 @@ import {
       image: baadday,
       source_code_link: "https://github.com/sarahpeihuang/Baad-Day",
     },
-    {
-      name: "Learning in Colour",
-      description:
-        "Learning in Colour is a prototyped web application for racialized students aged 16-25 to interact with racialized professionals through forums and blogs on Figma.",
-      tags: [
-        {
-          name: "figma",
-          color: "white-text-gradient",
-        },
-        {
-          name: "designthinking",
-          color: "white-text-gradient",
-        },
-        {
-          name: "powerpoint",
-          color: "white-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://www.linkedin.com/in/sarahpeihuang/overlay/1635514696527/single-media-viewer/?profileId=ACoAADEyqPUBkoQgMFEcP1s3Aa4ZyqkPG3lG4Js",
-    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
