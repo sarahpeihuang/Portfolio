@@ -23,13 +23,17 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className=' text-yellow-200'>Sarah Huang</span></h1>
-          <p className={`${styles.heroSubText} text-black`}>a 4th year <b>Software Engineering & Business</b> Student @ Western University</p>
+          <p className={`${styles.heroSubText} text-black`}>a <b>Software Engineering & Business</b> Student @ Western University</p>
+          <br/>
+          <p className={`${styles.sectionSubText} text-black`}>graduating Fall 2026, Seeking Summer 2026 and New Grad Roles</p>
+          
         </div>
 
         </div>
-
+<br/><br/>
 
       <ComputersCanvas/>
+      
       <div className='absolute xs:bottom-1 bottom-32 w-full flex justify-center items-center'>
         
         <a href='#about'>

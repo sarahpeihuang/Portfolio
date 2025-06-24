@@ -4,14 +4,12 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
-
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -39,7 +37,7 @@ const ExperienceCard = ({ experience }) => {
           className='text-secondary text-[22px] font-semibold'
           style={{ margin: 0 }}
         >
-          {experience.company_name} 
+          {experience.company_name}
         </p>
       </div>
 
@@ -60,16 +58,24 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      {/* Header Section */}
+      <motion.div
+        variants={textVariant()}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.25 }}
+        className="relative z-10"  // Ensures header stays on top if needed.
+      >
         <p className={`${styles.sectionSubText} text-black text-center mt-20`}>
           What I have done so far
         </p>
-        <h2 className={`${styles.heroHeadText} text-black text-center `}>
+        <h2 className={`${styles.heroHeadText} text-black text-center`}>
           Work Experience.
         </h2>
       </motion.div>
 
-      <div className='mt-10 flex flex-col bg-gradient-to-b from-white to-yellow-200 '>
+      {/* Timeline Section */}
+      <div className='mt-10 flex flex-col bg-gradient-to-b from-white to-yellow-200 overflow-visible'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
@@ -80,7 +86,7 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Experience, "work")
+export default SectionWrapper(Experience, "work");

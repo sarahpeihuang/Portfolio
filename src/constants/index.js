@@ -21,8 +21,10 @@ import {
     tripguide,
     threejs,
     cohere,
+    starflo,
+    twn,
     baadday, 
-    go, looker, java, python
+    go, looker, java, python, blaze
   } from "../assets";
   
   export const navLinks = [
@@ -152,16 +154,31 @@ import {
     ];  
   const experiences = [
     {
-      title: "Engineering Program Manager, RAG & Safety",
+      title: "Product Manager Intern",
+      company_name: "The Weather Network",
+      icon: twn,
+      iconBg: "#E6DEDD",
+      date: "Summer 2025",
+      points: [
+        "Grew annual ad revenue by $2M by developing a data-driven hypothesis from A/B test results from over 8.3M MAU",
+       ],
+    },{
+      title: "Product Manager Intern",
       company_name: "Cohere",
       icon: cohere,
       iconBg: "#E6DEDD",
-      date: "May 2024 - Aug 2024",
+      date: "Summer 2024",
       points: [
-        "Organized a week-long offsite for the Model Safety Team to strategize product vision and roadmap, collaborating with cross-functional partners to gather feedback and define action items for engineers",
-        "Analyzed market trends and user research to identify inefficiencies in API key distribution, resulting in a new distribution system that improved request fulfillment times for over 200 engineers",
-        "Led a documentation template project to address inconsistencies by conducting interviews amongst leadership and creating user-friendly templates, achieving high adoption rates across teams",
-      ],
+        "Shipped and API Key organization feature, reducing internal GPU costs 5X",
+        ],
+    },{
+      title: "Co-Founder",
+      company_name: "Starflo",
+      icon: starflo,
+      iconBg: "#E6DEDD",
+      date: "Jan 2024 - Present",
+      points: [
+        "Launched a Chrome Extension saving users ~2 seconds per function call",],
     },
     {
       title: "Project Manager, Data & Evaulation",
@@ -170,23 +187,18 @@ import {
       iconBg: "#E6DEDD",
       date: "August 2023 - May 2024",
       points: [
-        "Served as a liaison between over 200 Data Quality Specialists and Cohere’s engineering team to finetune the production of  a convenient internal data annotation platform for Data Quality Specialists and their managers",
-        "Spearheaded a sprint to fulfill Oracle’s P0 request by synthetically generating over 1000 prompts and relaying instructions to over 30 Copywriters, resulting in a timely completion to to satisfy all stakeholders",
-        "Collaborated in a team of 5 to author a Code Annotation Style Guide to ensure that external vendors like Scale AI and Invisible Technologies provide quality data and code annotations to improve chat model training data",
-        "Inaugurated a Vendor Evaluation Pipeline to identify low-performing data vendor annotators to ensure quality incoming data batches are up to standard, resulting in a 25% improvement over two weeks",
-      ],
+        "Managed Data Vendor Evaluations for over 5 languages, reducing senior stakeholder decision time by 15%",
+        ],
     },
     {
       title: "Production Engineer Fellow",
       company_name: "Meta - MLH Fellowship ",
       icon: meta,
       iconBg: "#E6DEDD", // #383E56 dark
-      date: "June 2023- September 2023",
+      date: "Summer 2023",
       points: [
-        "Developed and deployed an open-source portfolio website with Python, Flask, Jinja, MySQL, Nginx, Docker and unittest to ensure easy and flexible redeployment of code for future collaborators",
-        "Automated testing and deployment workflows using CI/CD, resulting in an improved troubleshooting process",
-        "Set up system and container monitoring, alerting, and visualization using Prometheus and Grafana to optimize computer processing and memory usage for repository collaborators",
-        "Completed 12 weeks of curriculum-based learning on core Production Engineering topics alongside Meta Engineers"
+        "Developed and automated testing on an open-source website to ensuring flexible redeployment for future collaborators",
+
       ],
     },
     {
@@ -194,12 +206,10 @@ import {
       company_name: "Cohere",
       icon: cohere,
       iconBg: "#E6DEDD",
-      date: "May 2023 - August 2023",
+      date: "Summer 2023",
       points: [
-        "Managed 27 engineers to establish a Code Review Pipeline and improved its efficiency by developing scripts to fold over 1500 hours worth of training data and mitigating blockers with data vendors, yielding a 6% model improvement in code generation",
-        "Scraped and parsed over 600,000 emails using Python to train Cohere’s Retrieval Augmented Generation model for application at corporate clients through Cohere’s chatbot assistant for enterprises, Coral",
-        "Developed the front end and implemented back end data fetching using React.js and Typescript in an internal full-stack application designed to expidite the data quality sifting process; completed in one week and pitched to Cohere’s CTO",
-        "Learned Golang onsite to troubleshoot request errors in Cohere’s APIs; efforts resulted in relevant data extraction for the Platforms Team to further optimize popular endpoints like Co.Generate and Co.Summarize" ],
+        "Led development of a Code Review Pipeline, yielding a 6% model improvement in code generation",
+      ]
     },
   ];
   
@@ -208,9 +218,9 @@ import {
       testimonial:
         "Sarah is data-driven, ambitious, and quick-witted. She is a true leader, and exceeded all expectations during her time at Cohere, where she led the development of several key initiatives. Sarah handles all challenges with grace and positivity. I’m confident Sarah will excel and uplevel *any* team at *every* organization, and I look forward to the day we can work together again.",
       name: "Ellie Evans",
-      designation: "First Product Manager",
-      company: "Cohere",
-      image: "https://media.licdn.com/dms/image/D5603AQF0IKJ4QV_pug/profile-displayphoto-shrink_800_800/0/1677532737024?e=1700697600&v=beta&t=7KRrrmga3pTe5MPEmlYG3qutvJcBjheSF4SoNaK89hk",
+      designation: "Product Manager",
+      company: "NVIDIA",
+      image: "https://d2gjqh9j26unp0.cloudfront.net/profilepic/16901f3b44c228113070a90c1f16da54",
     },
     {
       testimonial:
@@ -218,15 +228,15 @@ import {
       name: "Naomi White",
       designation: "Senior Modelling Program Manager",
       company: "Cohere",
-      image: "https://media.licdn.com/dms/image/v2/D5603AQHT82jj8avzUQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1676579337698?e=1731542400&v=beta&t=VwEx4CLNesvrRwuDpJp2X9R3ieAGaelO6be0BTI8SM0",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQHT82jj8avzUQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1676579337698?e=1756339200&v=beta&t=Igv3djqtE6mo_Zw6kgZbT1xZ9zqwvoZMgzIK3bd2ssw",
     },
     {
       testimonial:
         "I worked with Sarah during her internship as an Engineering Program Manager at Cohere. I was constantly impressed by her dedication in every task that she undertook. She was great at finding creative solutions to the problems presented to her and I saw her apply her Machine Learning knowledge to a project she completed for the Cohere RAG and Safety Teams. She is great at communication and problem solving. She also excels at getting technical tasks and projects across the finish line, at quality. I would love to work with Sarah again in a heartbeat and wish her all the very best in her career!",
       name: "Isha Satyakam",
-      designation: "Senior Engineering Program Manager",
+      designation: "Staff Engineering Program Manager",
       company: "Cohere",
-      image: "https://media.licdn.com/dms/image/v2/C5603AQF_h1K2P8hbgw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1632420799412?e=1731542400&v=beta&t=BWiNTHQmxPc54dB3mqPmkXtVG4cMMJYDpHKb4X7PqYc",
+      image: "https://media.licdn.com/dms/image/v2/C5603AQF_h1K2P8hbgw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1632420799412?e=1756339200&v=beta&t=Pte0IEKRz-MT3rHqZBJ1yA6-tr_458bHPAniJ6OkPEE",
     },
  
   ];
@@ -253,7 +263,27 @@ import {
     //   // image: corgi,
     //   // source_code_link: "https://main--silly-brigadeiros-2cb3c2.netlify.app/",
     // },
-
+{
+      name: "Blaze",
+      description:
+      "A Waze accessibility product feature using real-time data to empower visually impaired users with safer, more informed travel.",
+      tags: [
+        {
+          name: "product",
+          color: "white-text-gradient",
+        },
+        {
+          name: "strategy",
+          color: "white-text-gradient",
+        },
+        {
+          name: "go to market",
+          color: "white-text-gradient",
+        },
+      ],
+      image: blaze,
+      source_code_link: "https://docs.google.com/presentation/d/1jbVqDN_-L0Gjm5TiwotQWVLfcxizc0_R/edit?usp=sharing&ouid=116678309586853861855&rtpof=true&sd=true",
+    },
     {
       name: "Google Sheets",
       description:
@@ -264,11 +294,11 @@ import {
           color: "white-text-gradient",
         },
         {
-          name: "figma",
+          name: "user research",
           color: "white-text-gradient",
         },
         {
-          name: "user research",
+          name: "figma",
           color: "white-text-gradient",
         },
       ],

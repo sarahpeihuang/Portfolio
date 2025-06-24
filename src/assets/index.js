@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import sarah from "./Sarah.png";
@@ -29,11 +30,14 @@ import java from "./tech/java.png";
 
 import meta from "./company/meta.png";
 import cohere from "./company/cohere.png";
+import starflo from "./company/starflo.png";
+import twn from "./company/twn.png";
 
 import carrent from "./20past4.jpg";
 import jobit from "./moodaf.jpg";
 import tripguide from "./lic.jpg";
 import baadday from "./baadday.jpg";
+import blaze from "./blaze.png";
 // import corgi from "./corgi.jpg";
 
 export {
@@ -42,7 +46,7 @@ export {
   creator,
   mobile,
   web,
-  github,
+  github, link,
   menu,
   close,
   css,
@@ -64,5 +68,5 @@ export {
   jobit,
   tripguide,
   sarah, baadday, resume, 
-  go, looker, java, python
+  go, looker, java, python, starflo, twn, blaze
 };
