@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className=' text-yellow-200'>Sarah Huang</span></h1>
           <p className={`${styles.heroSubText} text-black`}>a <b>Software Engineering & Business</b> Student @ Western University</p>
           <br/>
-          <p className={`${styles.sectionSubText} text-black`}>graduating Fall 2026, Seeking Summer 2026 and New Grad Roles</p>
+          <p className={`${styles.sectionSubText} text-black`}>graduating Fall 2026, Seeking Summer 2026 Intern and New Grad PM Roles</p>
           
         </div>
 

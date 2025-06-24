@@ -74,7 +74,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-[#E8B5BD] p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Let's Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
           <div className="text-[20px] p-2">

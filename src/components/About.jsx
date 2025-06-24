@@ -66,7 +66,7 @@ const About = () => {
 
 🎓 I'm a Software Engineering & Business student and Varsity Athlete at Western University. I'm actively seeking opportunities in Product for <b>Summer 2026 </b> and <b>New Grad</b> <br /><br />
 
-💻 Last summer, I was an Product Manager Intern at The Weather Network where I worked to improve our mobile app for 8M MAU     <br /><br />
+💻 This summer, I'm a Product Manager Intern at The Weather Network where I'm improving our mobile app for 8M MAU     <br /><br />
 
 🌞 In my free time, you can find me playing ultimate frisbee 🥏, sewing clothes 🧵, crocheting 🧶, or going for a jog 🏃‍♀️ <br /><br />
 

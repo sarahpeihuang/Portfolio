@@ -169,7 +169,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Summer 2024",
       points: [
-        "Shipped and API Key organization feature, reducing internal GPU costs 5X",
+        "Shipped an API Key organization product, reducing internal GPU costs 5X",
         ],
     },{
       title: "Co-Founder",
@@ -197,7 +197,7 @@ import {
       iconBg: "#E6DEDD", // #383E56 dark
       date: "Summer 2023",
       points: [
-        "Developed and automated testing on an open-source website to ensuring flexible redeployment for future collaborators",
+        "Developed and automated testing on an open-source website to ensure flexible redeployment for future collaborators",
 
       ],
     },
@@ -208,7 +208,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Summer 2023",
       points: [
-        "Led development of a Code Review Pipeline, yielding a 6% model improvement in code generation",
+        "Led the development of a Code Review Pipeline, yielding a 6% model improvement in code generation",
       ]
     },
   ];
